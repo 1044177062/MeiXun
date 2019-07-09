@@ -2,6 +2,7 @@
 	padding: 0px;
 	margin: 0px;
 }
+
 li{
 	float: left;
 	list-style: none;
@@ -421,3 +422,152 @@ a{
 	font-size: 20px;
 	color: black;
 }
+
+.shangping{
+	margin-top: 30px;
+	float: left;
+	width: 1227px;
+}
+
+.tuangou{
+	float: left;
+	width: 1227px;
+	height: 293px;
+}
+
+.tuangou_1{
+	border: 1px solid #DDDDDD;
+	float: left;
+	width: 220px;
+	height: 293px;
+	margin-right: 22px;
+}
+
+.qian{
+	float: left;
+	color: red;
+	margin-top: 20px;
+}
+
+.qian span:nth-child(1){
+	float: left;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.tuangou_11 li{
+	width: 220px;
+}
+
+.xxx a{
+	display: block;
+	margin-top: 20px;
+	color: black;
+}
+
+.xxx a:hover{
+	color: red;
+}
+
+.yishou{
+	float: left;
+	display: block;
+	margin-left: 20px;
+	color: black;
+	font-size: 10px;
+}
+
+.gouwuche{
+	float: right;
+	cursor: pointer;
+}
+
+.guanggao{
+	border: 1px solid #DDDDDD;
+	margin-top: 20px;
+	float: left;
+	width: 1230px;
+	height: 91px;
+}
+
+.shangping_1{
+	float: left;
+	width: 1230px;
+}
+
+.fenlei_1{
+	width: 1230px;
+	float: left;
+	margin-top: 30px;
+}
+
+.fenlei_hed_l{
+	float: left;
+	background: url(../img/bangong.gif) no-repeat;
+	height: 20px;
+	width: 750px;
+	text-indent: 10px;
+}
+
+.fenlei_hed_r{
+	float: left;
+	height: 20px;
+	width: 480px;
+}
+
+.fenlei_hed_r a{
+	float: left;
+	color: black;
+	display: block;
+	width: 96px;
+}
+
+.fenlei_hed_r a:hover{
+	color: red;
+}
+
+.fenlei_body{
+	float: left;
+	width: 1230px;
+}
+
+.fenlei_body_l{
+	margin-top: 10px;
+	float: left;
+	width: 260px;
+}
+
+.fenlei_body_l_1{
+	float: left;
+	width: 259px;
+	height: 391px;
+	background: red;
+}
+
+.fenlei_body_l_2{
+	margin-top: 10px;
+	float: left;
+	width: 260px;
+	height: 122px;
+	background: blue;
+}
+
+.fenlei_body_r{
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+	width: 956px;
+}
+
+.fenlei_body_r li{
+	margin: 0 5px 5px 5px;
+	float: left;
+	width: 225px;
+	height: 258px;
+	background: green;
+}
+
+
+
+
+
