@@ -313,7 +313,7 @@ a{
 }
 
 .body_left{
-	background: #DDDDDD;
+	background:#ededed;
 	width: 200px;
 	height: 500px;
 	position: absolute;
@@ -325,6 +325,87 @@ a{
 .hed_nav_1{
 	float: left;
 	position: relative;
+}
+
+.left{
+	margin-top: 10px;
+	width: 200px;
+	height: 120px;
+	float: left;
+	background: url(../img/mini_1.gif) no-repeat;
+	text-indent: 45px;
+}
+
+.left:hover{
+	background: white;
+	color: red;
+}
+
+.left:hover li a{
+	background: white;
+	color: red;
+}
+
+
+.left li{
+	float: left;
+	margin: 5px 0;
+}	
+
+.left li a{
+	color: #666666;
+}
+
+.left_1{
+	line-height: 60px;
+	background: url(../img/left_1.gif) no-repeat;
+}
+
+.left_1 li{
+	line-height: 10px;
+}
+
+.left_1:hover{
+	background: url(../img/left_11.gif) no-repeat;
+}
+
+.left_2{
+	line-height: 40px;
+	background: url(../img/left_2.gif) no-repeat;
+}
+
+.left_2 li{
+	line-height: 10px;
+}
+
+.left_2:hover{
+	background: url(../img/left_22.gif) no-repeat;
+}
+
+.left_3{
+	line-height: 40px;
+	background: url(../img/left_3.gif) no-repeat;
+}
+
+.left_3 li{
+	line-height: 10px;
+}
+
+.left_3:hover{
+	background: url(../img/left_33.gif) no-repeat;
+}
+
+.left_4{
+	line-height: 50px;
+	background: url(../img/left_4.gif) no-repeat;
+}
+
+.left_4 li{
+	line-height: 10px;
+}
+
+.left_4:hover{
+	background: url(../img/left_44.gif) no-repeat;
 }
 
 .hed_nav{
