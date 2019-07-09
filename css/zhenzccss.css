@@ -1,0 +1,181 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+li{
+	float: left;
+	list-style: none;
+}
+
+.allbg{
+	background: url(../img/zc_bg.gif) repeat-x;
+	width: 100%;
+	height: 609px;
+	
+}
+
+.main{
+	margin: 0 auto;
+	width: 1200px;
+}
+
+.hed{
+	padding-top: 64px;
+	height: 60px;
+}
+.hed_img{
+	float: left;
+	width: 1000px;
+}
+
+.hed_text{
+	float: right;
+	width: 200px;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 60px;
+}
+
+.hed_text a{
+	color: skyblue;
+	text-decoration: none;
+}
+
+.body{
+	float: left;
+	width: 1200px;
+	height: 463px;
+	background: white;
+}
+
+.bot_bg{
+	background: url(../img/bg_5.gif) no-repeat;
+	width: 1200px;
+	height: 80px;
+}
+
+.body_input{
+	float: left;
+	margin-left: 350px;
+	margin-top: 60px;
+	width: 600px;
+	height: 400px;
+}
+
+.body_input2{
+	float: left;
+	width: 600px;
+	margin: 8px 0;
+}
+
+.body_input_l{
+	float: left;
+	text-align: center;
+	width: 100px;
+	line-height: 30px
+}
+
+.body_input_r{
+	float: left;
+}
+
+.body_input_r input{
+	float: left;
+	width: 350px;
+	height: 30px;
+}
+
+.body_hed{
+	float: left;
+	width: 600px;
+	border-bottom: 1px solid black;
+	margin-bottom: 30px;
+}
+
+.body_input_r_2{
+	float: left;
+	vertical-align: middle;
+	margin-left: 5px;
+}
+
+.body_input_r_3{
+	margin-left: 10px;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.body_input_r_3 a{
+	color: #EE0B39;
+}
+
+.body_hed_1{
+	color: #ee0b39;
+	float: left;
+	width: 200px;
+	text-align: center;
+	border-bottom: 2px solid #ee0b39;
+}
+
+.body_hed_2{
+	color: black;
+	float: left;
+	width: 200px;
+	text-align: center;
+}
+
+
+
+.bot_1{
+	float: left;
+	width: 220px;
+	padding-left: 20px;
+}
+
+.bot_1 li{
+	float: left;
+	list-style: none;
+	width: 220px;
+	text-align: center;
+}
+
+.bot_1 a{
+	color: black;
+	text-decoration: none;
+	font-size: 10px;
+}
+
+.bot_1 a:hover{
+	text-decoration: underline;
+}
+
+.bot_2{
+	margin-top: 20px;
+	float: left;
+	width: 100%;
+	background: black;
+	height: 180px;
+}
+
+.4ul{
+	float: left;
+	width: 1200px;
+}
+
+.bot_5{
+	margin-top: 10px;
+	text-align: center;
+	width: 1200px;
+	color: white;
+}
+
+.bot_5 a{
+	color: white;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+.bot_5 img{
+	vertical-align: middle;
+}

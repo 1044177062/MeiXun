@@ -1,0 +1,342 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+li{
+	float: left;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.hedbg{
+	background: url(../img/bg_1.gif) repeat-x;
+	height: 31px;
+	width: 100%;
+}
+
+.main{
+	width: 1230px;
+	margin: 0 auto;
+}
+
+.hed{
+	line-height: 31px;
+	height: 31px;
+	width: 1230px;
+}
+
+.hed_l{
+	float: left;
+	height: 31px;
+	width: 714px;
+}
+
+.hed_r{
+	float: left;
+	height: 31px;
+	width: 516px;
+}
+
+.hed_l div{
+	float: left;
+}
+
+.hed a{
+	color: #666666;
+	font-size: 12px;
+}
+
+.hed a:hover{
+	color: red;
+	text-decoration: underline;
+	font-size: 12px;
+}
+
+.hed_r li{
+	text-align: center;
+	height: 31px;
+	width: 80px;
+	padding: 0px 1px;
+}
+
+.hed_r_1{
+	float: left;
+}
+
+.hed_r_bg:hover{
+	padding: 0px;
+	background: white;
+	border: 1px solid #dddddd;
+	border-bottom: 0px;
+	border-top: 0px;
+}
+
+.hed_r_bg_2{
+	text-align: center;
+	height: 31px;
+	width: 80px;
+	padding: 0px 1px;
+}
+
+.hed_r_1{
+	position: relative;
+	left: -1px;
+	background: white;
+	top:-10px;
+	padding-bottom: 10px;
+	border-right: 1px solid #dddddd;
+	border-left: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	display: none;
+}
+
+.hed_r_1 li{
+	height: 20px;
+	width: 78px;
+}
+
+.bg{
+	background: red;
+	height: 200px;
+}
+
+.hed_2{
+	float: left;
+	width: 1230px;
+}
+
+.hed_2_1{
+	float: left;
+	white:273px;
+	height: 137px;
+}
+
+.hed_2_2{
+	float: left;
+	white:710px;
+	height: 125px;
+}
+
+.hed_2_3{
+	margin-top: 30px;
+	margin-left: 50px;
+	float: left;
+	white:250px;
+	height: 50px;
+}
+
+
+.hed_2_3_l{
+	cursor: pointer;
+	margin-right: 20px;
+	text-indent: 28px;
+	line-height: 40px;
+	font-size: 14px;
+	float: left;
+	width: 108px;
+	height: 38px;
+	border: 1px solid #DDDDDD;
+	background: #fafafa;
+	background: url(../img/bg_8.gif);
+}
+
+.hed_2_3_l:hover{
+	background: url(../img/bg_10.gif) no-repeat;
+}
+
+.hed_2_3_r:hover{
+	background: url(../img/bg_11.gif) no-repeat;
+}
+
+.hed_2_3_r{
+	cursor: pointer;
+	text-indent: 33px;
+	line-height: 40px;
+	font-size: 14px;
+	float: left;
+	width: 130px;
+	height: 38px;
+	border: 1px solid #DDDDDD;
+	background: #fafafa;
+	background: url(../img/bg_9.gif);
+}
+
+.hed_2_3_l:hover .hed_img_2{
+	transform: rotate(180deg);
+}
+.hed_2_3_r:hover .hed_img_2{
+	transform: rotate(180deg);
+}
+
+.hed_img_2{
+	vertical-align: middle;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+
+.wdsc{
+	display: none;
+	width: 308px;
+	height: 171px;
+	position: relative;
+	background: white;
+	border: 1px solid #DDDDDD;
+	top: -2px;
+	left: -200px;
+}
+
+.wdgwc{
+	display: none;
+	width: 308px;
+	height: 122px;
+	position: relative;
+	background: white;
+	border: 1px solid #DDDDDD;
+	top: -2px;
+	left: -180px;
+}
+
+.wdsc_2_1{
+	text-align: center;
+}
+
+.wdsc_1{
+	float: left;
+	text-indent: 220px;
+	height: 30px;
+	line-height: 30px;
+	width: 308px;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.wdsc_2{
+	float: left;
+	width: 308px;
+}
+
+.wdsc_2 li{
+	height: 30px;
+}
+
+.wdsc_2 a{
+	color: royalblue;
+}
+
+.wdsc_2 a:hover{
+	color: royalblue;
+}
+
+.wdsc_5{
+	border: 1px solid #DDDDDD;
+	float: left;
+	width: 308px;
+}
+
+.wdsc_l{
+	float: left;
+	width: 150px;
+	border-right:1px solid #DDDDDD ;
+}
+
+.wdsc_r{
+	float: left;
+	width: 150px;
+}
+
+.wdsc_3{
+	float: left;
+	width: 308px;
+	height: 50px;
+	background: #f0f0f0;
+}
+
+.wdsc_3_2{
+	float: left;
+	width: 308px;
+	text-align: center;
+}
+
+.wdsc_3_img{
+	float: right;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+.wdsc_3_l{
+	font-size: 12px;
+	float: left;
+	width: 150px;
+}
+
+.wdsc_3_r{
+	float: right;
+	width: 150px;
+}
+
+.bod{
+	margin-top: 30px;
+	float: left;
+	border: 2px solid #EE0B39;
+}
+.bod input{
+	float: left;
+	border: 0px;
+	width: 500px;
+	vertical-align: middle;
+	height: 35px;
+}
+
+.select{
+	float: left;
+	background: #EE0B39;
+	height: 35px;
+}
+
+.select a{
+	color: white;
+	padding: 10px 30px;
+}
+
+.select a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.lunbo{
+	float: left;
+	width: 1230px;
+	height: 500px;
+	background: url(../img/lunbo.gif) repeat-x;
+}
+
+.body_left{
+	background: #DDDDDD;
+	width: 200px;
+	height: 500px;
+	position: absolute;
+	top: 36px;
+	border: 1px solid #F0F0F0;
+}
+
+
+.hed_nav_1{
+	float: left;
+	position: relative;
+}
+
+.hed_nav{
+	border-right: 1px solid #DDDDDD;
+	float: left;
+	width: 200px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.hed_nav a{
+	line-height:40px ;
+	font-size: 20px;
+	color: black;
+}

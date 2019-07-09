@@ -1,0 +1,189 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.main{
+	margin: 0 auto;
+	width: 1200px;
+}
+
+.hed_bg{
+	background: url(../img/bg_3.gif) repeat-x;
+	width: 100%;
+	height: 90px;
+}
+
+.hed{
+	float: left;
+	height: 90px;
+	width: 1200px;
+}
+
+.hed_l{
+	float: left;
+	width: 1000px;
+}
+
+.hed_r{
+	float: left;
+	width: 100px;
+}
+
+.hed_r img{
+	float: left;
+	margin-top: 20px;
+	vertical-align: middle;
+}
+
+.body{
+	background: url(../img/bg_4.gif) repeat-x;
+	width: 100%;
+	height: 566px;
+}
+
+.body_1{
+	float: left;
+	width: 1100px;
+	margin-top: 100px;
+	margin-left: 80px;
+}
+
+.body_img{
+	float: left;
+	background:url(../img/img_1.png) no-repeat;
+	width: 639px;
+	height: 348px;
+}
+
+.body_log{
+	float: left;
+	width: 380px;
+	height: 342px;
+	background: white;
+}
+
+.body_text{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	float: left;
+	width: 340px;
+	height: 262px;
+}
+
+.text_1{
+	font-size: 18px;
+	margin-bottom: 25px;
+}
+
+.text_2{
+	float: left;
+	border: 1px solid #DDDDDD;
+	margin-bottom: 25px;
+}
+
+.yhm{
+	float: left;
+	line-height: 30px;
+	padding: 5px;
+	color: #666666;
+	border-right:1px solid #DDDDDD ;
+	width: 50px;
+}
+
+.text_2 input{
+	float: left;
+	border: 0px;
+	vertical-align: middle;
+	height: 40px;
+	width: 250px;
+}
+
+.text_3{
+	float: left;
+}
+
+.hy_l{
+	float: left;
+	border: 0px;
+	font-size: 10px;
+	margin-right: 100px;
+}
+
+.hy_l a{
+	color: skyblue;
+	text-decoration: none;
+}
+
+.hy_r a{
+	color: skyblue;	
+	text-decoration: none;
+}
+
+.hy_r{
+	float: left;
+	font-size: 10px;
+}
+
+.bot_bg{
+	background: url(../img/bg_5.gif) no-repeat;
+	width: 1200px;
+	height: 80px;
+}
+
+.bot_1{
+	float: left;
+	width: 220px;
+	padding-left: 20px;
+}
+
+.bot_1 li{
+	float: left;
+	list-style: none;
+	width: 220px;
+	text-align: center;
+}
+
+.bot_1 a{
+	color: black;
+	text-decoration: none;
+	font-size: 10px;
+}
+
+.bot_1 a:hover{
+	text-decoration: underline;
+}
+
+.bot_2{
+	margin-top: 20px;
+	float: left;
+	width: 100%;
+	background: black;
+	height: 180px;
+}
+
+.4ul{
+	float: left;
+	width: 1200px;
+}
+
+.bot_5{
+	margin-top: 10px;
+	text-align: center;
+	width: 1200px;
+	color: white;
+}
+
+.bot_5 a{
+	color: white;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+.bot_5 img{
+	vertical-align: middle;
+}
+
+
