@@ -541,7 +541,6 @@ a{
 	float: left;
 	width: 259px;
 	height: 391px;
-	background: red;
 }
 
 .fenlei_body_l_2{
@@ -549,7 +548,6 @@ a{
 	float: left;
 	width: 260px;
 	height: 122px;
-	background: blue;
 }
 
 .fenlei_body_r{
@@ -560,13 +558,106 @@ a{
 }
 
 .fenlei_body_r li{
+		border: 1px solid #F6F6F6;
+}
+
+.fenlei_body_l div{
+		border: 1px solid #F6F6F6;
+}
+
+
+.fenlei_body_r li{
 	margin: 0 5px 5px 5px;
 	float: left;
 	width: 225px;
 	height: 258px;
-	background: green;
 }
 
+
+.hed_2{
+	background: white;
+}
+
+
+.bot_bg{
+	float: left;
+	background: url(../img/bg_5.gif) no-repeat;
+	width: 1200px;
+	height: 80px;
+}
+
+.bot_1{
+	float: left;
+	width: 220px;
+	padding-left: 20px;
+}
+
+.bot_1 li{
+	float: left;
+	list-style: none;
+	width: 220px;
+	text-align: center;
+}
+
+.bot_1 a{
+	color: black;
+	text-decoration: none;
+	font-size: 10px;
+}
+
+.bot_1 a:hover{
+	text-decoration: underline;
+}
+
+.bot_2{
+	margin-top: 20px;
+	float: left;
+	width: 100%;
+	background: black;
+	height: 180px;
+}
+
+.4ul{
+	float: left;
+	width: 1200px;
+}
+
+.bot_5{
+	margin-top: 10px;
+	text-align: center;
+	width: 1200px;
+	color: white;
+}
+
+.bot_5 a{
+	color: white;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+.bot_5 img{
+	vertical-align: middle;
+}
+
+.baise{
+	background: white;
+	width: 100%;
+	height: 140px;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	z-index: -1;
+}
+
+.baise2{
+	background: white;
+	width: 100%;
+	height: 80px;
+	position: absolute;
+	top: 4072px;
+	left: 0;
+	z-index: -1;
+}
 
 
 
