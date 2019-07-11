@@ -437,6 +437,7 @@ a{
 
 .tuangou_1{
 	border: 1px solid #DDDDDD;
+	overflow: hidden;
 	float: left;
 	width: 220px;
 	height: 293px;
@@ -457,6 +458,18 @@ a{
 
 .tuangou_11 li{
 	width: 220px;
+}
+
+.shangpingtu{
+	transition: all 0.5s ease-in-out;
+}
+
+.fenlei_body_r li:hover{
+	box-shadow: #666 0px 0px 10px;
+}
+
+.shangpingtu:hover{
+	transform: scale(1.1);
 }
 
 .xxx a{
@@ -481,6 +494,15 @@ a{
 	float: right;
 	cursor: pointer;
 }
+
+.gouwuche img{
+	transition: all 0.3s ease-in-out;
+}
+
+.gouwuche img:hover{
+	transform: translate(-10px) rotate(360deg);
+}
+
 
 .guanggao{
 	border: 1px solid #DDDDDD;
