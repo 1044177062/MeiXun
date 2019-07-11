@@ -385,7 +385,7 @@ a{
 
 .bigdiv{
 	float: left;
-	width: 1200px;
+	width: 1215px;
 }
 
 .div_l{
@@ -480,18 +480,188 @@ a{
 }
 
 .div_c{
+	margin-left: 10px;
 	float: left;
 	width: 660px;
-	height: 20px;
-	background: green;
+}
+
+.div_c_hed{
+	padding-top: 20px;
+	padding-left: 10px;
+	float: left;
+	width: 640px;
+	height: 150px;
+	font-size: 25px;
+	color:#666666;
+	border: 1px solid #F0F0F0;
+}
+
+.c_hed_1{
+	line-height: 195px;
+	text-indent: 90px;
+	float: left;
+	width: 200px;
+	height: 128px;
+	border-right: 1px solid #F0F0F0;
+	background: url(../img/yue.gif) no-repeat;
+}
+
+.c_hed_2{
+	line-height: 195px;
+	text-indent: 90px;
+	float: left;
+	width: 200px;
+	height: 128px;
+	border-right: 1px solid #F0F0F0;
+	background: url(../img/daijingquan.gif) no-repeat;
+}
+
+.c_hed_3{
+	line-height: 195px;
+	text-indent: 90px;
+	float: left;
+	width: 200px;
+	height: 128px;
+	background: url(../img/keyongjifen.gif) no-repeat;
+}
+
+.div_c_body{
+	float: left;
+	width: 650px;
+	border: 1px solid #e7e7e7;
+	background: #fefbf8;
+}
+
+.div_c_body_2{
+	float: left;
+	width: 650px;
+	border: 1px solid #e7e7e7;
+	background: white;
+}
+
+
+.c_body_1{
+	float: left;
+	line-height: 45px;
+	text-indent: 23px;
+	font-size: 14px;
+	width: 660px;
+	background: url(../img/shugang2.gif) no-repeat;
+	height: 40px;
+}
+
+.c_body_2{
+	float: left;
+	line-height: 50px;
+	text-indent: 23px;
+	font-size: 14px;
+	width: 660px;
+	background: url(../img/shugang.gif) no-repeat;
+	height: 40px;
+}
+
+.sanli{
+	float: right;
+	margin-right: 20px;
+}
+
+.c_body_tu{
+	float: left;
+	width: 650px;
+	height: 280px;
+	background: url(../img/jiaoyitixing.gif) no-repeat;
+}
+
+.c_body_tu_2{
+	float: left;
+	width: 650px;
+	height: 280px;
+	background: url(../img/shouchang.gif) no-repeat;
 }
 
 .div_r{
 	float: left;
 	width: 329px;
-	height: 20px;
-	background: yellow;
+	font-size: 14px;
 }
+
+.div_r_1{
+	border: 1px solid #F0F0F0;
+	float: left;
+	width: 329px;
+}
+
+.r_1_hed{
+	float: left;
+	width: 329px;
+	line-height: 45px;
+	text-indent: 25px;
+	height: 30px;
+	background: url(../img/shugang.gif) no-repeat;
+}
+
+.r_2_body{
+	float: left;
+	width: 329px;
+	height: 200px;
+	background: url(../img/gerengouwuche.gif) no-repeat;
+}
+
+.r_2_body_2{
+	float: left;
+	width: 329px;
+	height: 200px;
+	background: url(../img/shouchangdianpu.gif) no-repeat;
+}
+
+
+.div_2_body{
+	padding-left: 10px;
+	float: left;
+	width: 197px;
+	border: 1px solid #e7e7e7;
+	background: white;	
+	padding-bottom: 8px;
+}
+
+
+.div_2_hed{
+	float: left;
+	width: 209px;
+	height: 30px;
+	text-indent: 10px;
+	background: url(../img/dianer.gif) no-repeat;
+}
+
+.div_2_hed li{
+	float: left;
+	line-height: 45px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+.div_2_body_1 li{
+	float: left;
+	width: 209px;
+	margin: 5px 0;
+}
+
+
+.div_2_body_1 li a{
+	float: left;
+	margin-left: 10px;
+	font-size: 14px;
+	color: #777777;
+}
+
+.div_2_body_1 li a:hover{
+	text-decoration: underline;
+	color: red;
+}
+
+
+
 
 
 
