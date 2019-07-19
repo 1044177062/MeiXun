@@ -16,21 +16,21 @@
 					<div class="body_input">
 						<div class="body_hed">
 							<div class="body_hed_1">设置用户信息</div>
-							<div class="body_hed_2">验证手机</div>
-							<div class="body_hed_2">注册成功</div>
+							<div class="body_hed_2"></div>
+							<div class="body_hed_2"></div>
 						</div>
-						<form action="post" method="#">
+						<form action="index.html" method="get">
 							<div class="body_input2">
 								<div class="body_input_l">用 户 名：</div>
-								<div class="body_input_r"><input type="text" required placeholder="请输入2-10位由数字和字母组成的字段" name="" id="" value="" /></div>
+								<div class="body_input_r"><input type="text" pattern="[A-Za-z][0-9]{2,10}"  required placeholder="请输入2-10位由数字和字母组成的字段" name="" id="" value="" /></div>
 							</div>
 							<div class="body_input2">
 								<div class="body_input_l">请输入密码：</div>
-								<div class="body_input_r"><input type="password" required  placeholder="请输入6-20位由数字,标点,特殊符号和字母组成的字段" name="" id="" value="" /></div>
+								<div class="body_input_r"><input type="password" pattern="^(?![a-zA-z]+$)(?!\d+$)(?![!@#$%^&*]+$)(?![a-zA-z\d]+$)(?![a-zA-z!@#$%^&*]+$)(?![\d!@#$%^&*]+$)[a-zA-Z\d!@#$%^&*]+$"  required  placeholder="请输入6-20位由数字,标点,特殊符号和字母组成的字段" name="" id="" value="" /></div>
 							</div>
 							<div class="body_input2">
 								<div class="body_input_l">请确认密码：</div>
-								<div class="body_input_r"><input type="text" required placeholder="再次输入密码" name="" id="" value="" /></div>
+								<div class="body_input_r"><input type="password" required placeholder="再次输入密码" name="" id="" value="" /></div>
 							</div>
 							<div class="body_input2">
 								<div class="body_input_l">图文验证码：</div>
@@ -40,7 +40,7 @@
 							</div>
 							<div class="body_input2">
 								<div class="body_input_l">&nbsp;</div>
-								<div class="body_input_r"><input type="image" style="height: 40px;" src="img/bot2.gif" name="" id="" value="" /></div>
+								<div class="body_input_r"><input type="image" style="height: 40px;" src="img/zc.gif" name="" id="" value="" /></div>
 							</div>
 						</form>
 					</div>

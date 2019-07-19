@@ -8,6 +8,10 @@
 	width: 1200px;
 }
 
+#imgbut:hover{
+	opacity: 0.9;
+}
+
 .hed_bg{
 	background: url(../img/bg_3.gif) repeat-x;
 	width: 100%;
@@ -59,7 +63,7 @@
 .body_log{
 	float: left;
 	width: 380px;
-	height: 342px;
+	height: 320px;
 	background: white;
 }
 
@@ -81,8 +85,28 @@
 .text_2{
 	float: left;
 	border: 1px solid #DDDDDD;
-	margin-bottom: 25px;
+	margin-bottom: 0px;
 }
+
+.yhmid{
+	color: red;
+	font-size: 12px;
+	width: 300px;
+	margin-bottom: 15;
+}
+.mmid{
+	color: red;
+	font-size: 12px;
+	width: 300px;
+	margin-bottom: 15;
+}
+
+.wwid{
+	margin-bottom: 5px;
+	visibility: hidden;
+}
+
+
 
 .yhm{
 	float: left;

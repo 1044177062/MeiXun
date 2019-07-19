@@ -21,6 +21,7 @@ a{
 .main{
 	width: 1230px;
 	margin: 0 auto;
+	overflow: hidden;
 }
 
 .hed{
@@ -200,6 +201,7 @@ a{
 	left: -180px;
 }
 
+
 .wdsc_2_1{
 	text-align: center;
 }
@@ -310,8 +312,60 @@ a{
 	float: left;
 	width: 1230px;
 	height: 500px;
-	background: url(../img/lunbo.gif) repeat-x;
 }
+
+.lunboul{
+	float: left;
+	width: 1230px;
+	height: 500px;
+}
+
+.lunboul li{
+	display: none;
+}
+
+.lunboul li:first-child{
+	display: block;
+}
+
+.lunbotext{
+	position: absolute;
+	top: 680px;
+	left: 600px;
+}
+
+.lunbotext li{
+	cursor: pointer;
+}
+
+.xz_yes{
+	font-size: 4px;
+	border: 1px solid #DDDDDD;
+	background: white;
+	padding: 0px 5px;
+	color: black;
+	margin-right: 5px;
+	border-radius: 50%;
+}
+
+.xz_no{
+	color: white;
+	font-size: 4px;
+	border: 1px solid #DDDDDD;
+	background: #DDDDDD;
+	padding: 0px 5px;
+	margin-right: 5px;
+	border-radius: 50%;
+}
+
+
+
+.lunboul img{
+	float: left;
+	width: 1230px;
+	height: 500px;
+}
+
 
 .body_left{
 	background:#ededed;
@@ -329,7 +383,6 @@ a{
 }
 
 .left{
-	margin-top: 10px;
 	width: 200px;
 	height: 120px;
 	float: left;
@@ -337,14 +390,16 @@ a{
 	text-indent: 45px;
 }
 
-.left:hover{
+.left:hover .li_1{
 	background: white;
-	color: red;
+	color: red;	
 }
 
-.left:hover li a{
+
+
+.left:hover .li_1 a{
 	background: white;
-	color: red;
+	color: red;	
 }
 
 
@@ -358,6 +413,7 @@ a{
 }
 
 .left_1{
+	margin-top: 10px;
 	line-height: 60px;
 	background: url(../img/left_1.gif) no-repeat;
 }
@@ -465,7 +521,13 @@ a{
 }
 
 .fenlei_body_r li:hover{
-	box-shadow: #666 0px 0px 10px;
+	animation:liname 0.3s forwards;
+	box-shadow: #666 0px 0px 0px;
+}
+
+@keyframes liname{
+	from{box-shadow: #666 0px 0px 0px;}
+	to{box-shadow: #666 0px 0px 10px;}
 }
 
 .shangpingtu:hover{
@@ -680,6 +742,53 @@ a{
 	left: 0;
 	z-index: -1;
 }
+
+.dwzs{
+	position: absolute;
+	left: 180px;
+	top: 10px;
+	width: 800px;
+	height: 510px;
+	z-index: 9999;
+	padding-top: 10px;
+	background: white;
+}
+
+.dwzs a:hover{
+	color: red;
+}
+
+.dwzs li{
+	margin: 10px;
+}
+
+
+.dwzsli_1{
+	font-weight: bold;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #F0F0F0;
+	width: 800px;
+}
+
+.zs1{
+	display: none;
+}
+
+.zs2{
+	display: none;
+}
+
+.zs3{
+	display: none;
+}
+
+.zs4{
+	display: none;
+}
+
+
+
+
 
 
 

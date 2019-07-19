@@ -4,13 +4,15 @@
 		<meta charset="utf-8">
 		<title>登入</title>
 		<link rel="stylesheet" href="css/zccss.css">
+		<script src="js/jquery-1.12.4.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/lodjs.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
 		<div class="hed_bg">
 			<div class="main">
 				<div class="hed">
 					<div class="hed_l"><a href="#"><img src="img/img_1.gif" alt=""></a></div>
-					<div class="hed_r"><a href="#"><img src="img/img_2.gif" alt=""></a></div>
+					<div class="hed_r"><a href="index.html"><img src="img/img_2.gif" alt=""></a></div>
 				</div>
 			</div>
 		</div>
@@ -19,13 +21,17 @@
 				<div class="body_1">
 					<div class="body_img"></div>
 					<div class="body_log">
-						<form action="post" method="#">
+						<form action="index.html" id="myform" method="get">
 							<div class="body_text">
 								<div class="text_1">用户登入</div>
-								<div class="text_2"><div class="yhm">用户名</div><input type="text" name="" required placeholder=" 输入账号或密码" id="" value="" /></div>
-								<div class="text_2"><div class="yhm">密&nbsp; 码</div><input type="password" required name="" placeholder=" " id="" value="" /></div>
-								<div class="text_2"><input type="image" src="img/but.gif" style="width: 315px;" name="" id="" value="" /></div>
-								<div class="text_3"><div class="hy_l">还不是本站会员？<a href="#">立即注册</a></div><div class="hy_r"><a href="#">忘记密码？</a></div></div>
+								<div class="text_2">
+								<div class="yhm">用户名</div><input type="text" name=""  placeholder=" 请输入账号" id="yhm" value="" /></div>
+								<div class="yhmid">.</div>
+								<div class="text_2"><div class="yhm">密&nbsp; 码</div><input type="password"  name="" placeholder=" 请输入密码" id="mm" value="" /></div>
+								<div class="mmid">.</div>
+								<div class="text_2"><input type="image" src="img/but.gif" style="width: 315px;" name="" id="imgbut" value="" /></div>
+								<div class="wwid">dddddddddddddddd</div>
+								<div class="text_3"><div class="hy_l">还不是本站会员？<a href="zc.html">立即注册</a></div><div class="hy_r"><a href="#">忘记密码？</a></div></div>
 							</div>
 						</form>
 					</div>
