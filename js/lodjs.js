@@ -16,6 +16,7 @@ function xzuser(){
 		$(".yhmid").html("输入不能为空");
 		return false
 	}
+	sessionStorage.setItem("username",yhm);
 	$(".yhmid").html(".");
 	return true
 }
@@ -29,3 +30,4 @@ function xzpwd(){
 	$(".mmid").html(".");
 	return true
 }
+

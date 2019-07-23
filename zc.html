@@ -4,6 +4,8 @@
 		<meta charset="utf-8">
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="css/zhenzccss.css"/>
+		<script src="js/jquery-1.12.4.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/zc.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
 		<div class="allbg">
@@ -22,25 +24,30 @@
 						<form action="index.html" method="get">
 							<div class="body_input2">
 								<div class="body_input_l">用 户 名：</div>
-								<div class="body_input_r"><input type="text" pattern="[A-Za-z][0-9]{2,10}"  required placeholder="请输入2-10位由数字和字母组成的字段" name="" id="" value="" /></div>
+								<div class="body_input_r"><input class="name" type="text" placeholder="请输入2-10位由数字和字母组成的字段" name="" id="" value="" /></div>
+								<span class="tishi"></span>
 							</div>
 							<div class="body_input2">
 								<div class="body_input_l">请输入密码：</div>
-								<div class="body_input_r"><input type="password" pattern="^(?![a-zA-z]+$)(?!\d+$)(?![!@#$%^&*]+$)(?![a-zA-z\d]+$)(?![a-zA-z!@#$%^&*]+$)(?![\d!@#$%^&*]+$)[a-zA-Z\d!@#$%^&*]+$"  required  placeholder="请输入6-20位由数字,标点,特殊符号和字母组成的字段" name="" id="" value="" /></div>
+								<div class="body_input_r"><input class="password" type="password"  placeholder="请输入6-20位由数字,标点,特殊符号和字母组成的字段" name="" id="" value="" /></div>
+								<span class="tishi"></span>
 							</div>
 							<div class="body_input2">
 								<div class="body_input_l">请确认密码：</div>
-								<div class="body_input_r"><input type="password" required placeholder="再次输入密码" name="" id="" value="" /></div>
+								<div class="body_input_r"><input class="repassword" type="password"  placeholder="再次输入密码" name="" id="" value="" /></div>
+								<span class="tishi"></span>
 							</div>
 							<div class="body_input2">
 								<div class="body_input_l">图文验证码：</div>
-								<div class="body_input_r"><input style="width: 150px;" type="text" required placeholder="请输入图片上的验证码" name="" id="" value="" /></div>
+								<div class="body_input_r"><input style="width: 150px;" type="text"  placeholder="请输入图片上的验证码" name="" id="" value="" /></div>
 								<div class="body_input_r_2"><img src="img/yzm.gif" alt=""></div>
 								<div class="body_input_r_3">看不清<br><a href="#">换一张</a></div>
+								<span class="tishi"></span>
 							</div>
 							<div class="body_input2">
 								<div class="body_input_l">&nbsp;</div>
 								<div class="body_input_r"><input type="image" style="height: 40px;" src="img/zc.gif" name="" id="" value="" /></div>
+								<span class="tishi"></span>
 							</div>
 						</form>
 					</div>
