@@ -6,6 +6,16 @@ $(function(){
 		var flag=true;
 		if(!xzuser()) flag=false;
 		if(!xzpwd()) flag=false;
+		var yhm=$("#yhm").val();
+		var mm=$("#mm").val();
+		if(sessionStorage.getItem(yhm)==null||sessionStorage.getItem(yhm)!=mm){
+			alert("未找到此用户或密码错误");
+			flag=false;
+		}else{
+			sessionStorage.setItem("username",yhm);
+			alert("登入成功");
+			flag=true;
+		}
 		return flag;
 	})
 })
@@ -16,7 +26,6 @@ function xzuser(){
 		$(".yhmid").html("输入不能为空");
 		return false
 	}
-	sessionStorage.setItem("username",yhm);
 	$(".yhmid").html(".");
 	return true
 }

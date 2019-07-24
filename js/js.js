@@ -13,6 +13,8 @@ function lunbo(){
 setInterval("lunbo()",2000);
 
 $(function(){
+	
+	
 	if(sessionStorage.getItem("username")!=null){
 		var zhi=sessionStorage.getItem("username");
 		var html="<a href='index.html'>美逊首页</a>&nbsp;"+

@@ -2,6 +2,19 @@
 $(function(){
 	xiaoji();
 	zongjia();
+	$(".del").click(function(){
+		//判断店铺是否还有商品
+		var pd=$(this).parent().parent().parent().next().attr("class");
+		var pd2=$(this).parent().parent().parent().prev().attr("class");
+		if(pd!="qxbk gouwuche_4"&&pd2!="qxbk gouwuche_4"){
+			$(this).parent().parent().parent().prev().remove();
+		}
+		$(this).parent().parent().parent().remove();
+		xiaoji();
+		zongjia();
+	})
+	
+	
 	function xiaoji(){
 		$(".qxbk ul").each(function(){
 			var danjia=$(this).children(".danjia").html();

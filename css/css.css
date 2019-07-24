@@ -12,6 +12,21 @@ a{
 	font-size: 12px;
 }
 
+.lunbo_div{
+	position: relative;
+}
+
+.spandwzs{
+	float: left;
+	display: block;
+	margin-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 800px;
+	border-bottom: 1px dashed #DDDDDD;
+	font-weight: bold;
+}
+
 .hedbg{
 	background: url(../img/bg_1.gif) repeat-x;
 	height: 31px;
@@ -184,6 +199,7 @@ a{
 	width: 308px;
 	height: 171px;
 	position: relative;
+	z-index: 9999999999999999999;
 	background: white;
 	border: 1px solid #DDDDDD;
 	top: -2px;
@@ -191,6 +207,7 @@ a{
 }
 
 .wdgwc{
+	z-index: 9999999999999999999;
 	display: none;
 	width: 308px;
 	height: 122px;
@@ -318,6 +335,7 @@ a{
 	float: left;
 	width: 1230px;
 	height: 500px;
+	z-index: 1;
 }
 
 .lunboul li{
@@ -330,7 +348,8 @@ a{
 
 .lunbotext{
 	position: absolute;
-	top: 680px;
+	top: 450px;
+	z-index: 9999999;
 	left: 600px;
 }
 
@@ -380,6 +399,7 @@ a{
 .hed_nav_1{
 	float: left;
 	position: relative;
+	z-index: 9999999999;
 }
 
 .left{
@@ -752,6 +772,11 @@ a{
 	z-index: 9999;
 	padding-top: 10px;
 	background: white;
+}
+
+.dwzsul{
+	float: left;
+	width: 800px;
 }
 
 .dwzs a:hover{
