@@ -197,6 +197,14 @@ a{
 	height: 105px;
 }
 
+.konggwc{
+	float: left;
+	width: 1100px;
+	height: 200px;
+	background: url(../img/gerengouwuche.gif) no-repeat;
+	background-position: center;
+}
+
 .gouwuche_2{
 	border-top:2px solid #999999;
 	float: left;

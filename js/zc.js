@@ -73,7 +73,7 @@ function xzname(){
 		$(".nametishi").html("不能为空");
 		return false
 	}else if(bds.test(name)==false){
-		$(".nametishi").html("数字英文组成2到16位字符");
+		$(".nametishi").html("数字或英文组成5-16位字符");
 		return false
 	}
 	$(".nametishi").html("");
@@ -88,7 +88,7 @@ function xzpassword(){
 		$(".passwordtishi").html("不能为空");
 		return false
 	}else if(bds.test(password)==false){
-		$(".passwordtishi").html("6到20位字符组成");
+		$(".passwordtishi").html("5到20位字符组成");
 		return false
 	}
 	$(".passwordtishi").html("");

@@ -449,6 +449,10 @@ a{
 	background: url(../img/shexiangji.gif) no-repeat;
 }
 
+[class^='div_1_li'] a:hover{
+	color: white;
+}
+
 
 .div_1_li_2{
 	color: white;
@@ -658,6 +662,10 @@ a{
 .div_2_body_1 li a:hover{
 	text-decoration: underline;
 	color: red;
+}
+
+.jygl{
+	cursor: pointer;
 }
 
 

@@ -210,7 +210,7 @@ a{
 	z-index: 9999999999999999999;
 	display: none;
 	width: 308px;
-	height: 122px;
+	
 	position: relative;
 	background: white;
 	border: 1px solid #DDDDDD;
@@ -225,16 +225,82 @@ a{
 
 .wdsc_1{
 	float: left;
+	overflow: hidden;
 	text-indent: 220px;
 	height: 30px;
 	line-height: 30px;
-	width: 308px;
-	border-bottom: 1px solid #DDDDDD;
+	width: 306px;
+	border: 1px solid #DDDDDD;
+}
+
+.gwc_2{
+	border: 1px solid #DDDDDD;
 }
 
 .wdsc_2{
 	float: left;
 	width: 308px;
+}
+
+.sp{
+	text-indent: 0;
+	text-align: left;
+	border: 1px solid #DDDDDD;
+	border-top: 0px;
+	background: white;
+	float: left;
+	width: 306px;
+	height: 50px;
+}
+
+.sp_l{
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+
+.sp_l img{
+	float: left;
+}
+
+.sp_m{
+	font-size: 10px;
+	overflow: hidden;
+	float: left;
+	width: 186px;
+	height: 50px;
+}
+
+.sp_m div{
+	float: left;
+}
+
+
+.sp_r{
+	font-size: 10px;
+	overflow: hidden;
+	float: left;
+	width: 70px;
+	height: 50px;
+}
+
+.sp_r_1{
+	text-align: center;
+	font-size: 10px;
+	overflow: hidden;
+	float: left;
+	width: 70px;
+	height: 25px;
+}
+
+.sp_r_2{
+	text-align: center;
+	font-size: 10px;
+	overflow: hidden;
+	float: left;
+	width: 70px;
+	line-height: 13px;
+	height: 25px;
 }
 
 .wdsc_2 li{
@@ -365,9 +431,11 @@ a{
 	color: black;
 	margin-right: 5px;
 	border-radius: 50%;
+	opacity: 0.8;
 }
 
 .xz_no{
+	opacity: 0.8;
 	color: white;
 	font-size: 4px;
 	border: 1px solid #DDDDDD;

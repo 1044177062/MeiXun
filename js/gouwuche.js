@@ -1,7 +1,31 @@
+function qx(){
+	var checkjd=document.getElementsByClassName('chejd');
+	for(var i=0;i<checkjd.length;i++){
+		if(checkjd[i].checked==true){
+			checkjd[i].checked=false;
+		}else{
+			checkjd[i].checked=true;
+		}
+	}
+}
+
 
 $(function(){
 	xiaoji();
 	zongjia();
+	
+	
+	$(".jieshuan").click(function(){
+		var zongjia=$(".zongjia_1 span").html();
+		var pd=confirm("应付金额："+zongjia+"元\n是否结算？");
+		if(pd==true){
+			alert("结算成功");
+			window.location.href="index.html";
+		}else{
+			
+		}
+	})
+	
 	$(".del").click(function(){
 		//判断店铺是否还有商品
 		var pd=$(this).parent().parent().parent().next().attr("class");
@@ -10,6 +34,13 @@ $(function(){
 			$(this).parent().parent().parent().prev().remove();
 		}
 		$(this).parent().parent().parent().remove();
+		
+		var main2jd=$("#main2_body .gouwuche_3").attr("class");
+		if(main2jd==undefined){
+			$("#main2_body").append("<a	href='index.html'><div class='konggwc'></div></a>");
+			$(".zongjia_1").hide();
+		}
+		
 		xiaoji();
 		zongjia();
 	})
@@ -19,7 +50,7 @@ $(function(){
 		$(".qxbk ul").each(function(){
 			var danjia=$(this).children(".danjia").html();
 			var shuliang=$(this).children(".shuliang").children(".geshu").val();
-			var xiaoji=parseFloat(danjia).toFixed(1)*parseFloat(shuliang);
+			var xiaoji=parseFloat(danjia).toFixed(1)*shuliang;
 			xiaoji=xiaoji.toFixed(1);
 			$(this).children(".xiaoji").html(xiaoji);
 		})

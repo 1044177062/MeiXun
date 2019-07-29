@@ -14,17 +14,80 @@ setInterval("lunbo()",2000);
 
 $(function(){
 	
+	$(".gouwuche").click(function(){
+		var jg=$(this).parent().children(".dj").children("span").html();
+		var img=$(this).parent().parent().children(".tu").children("a").children("img").attr("src");
+		var name=$(this).parent().parent().children(".xxx").children("a").html();
+		var pd=0;
+		
+		var wdsc= $("#wdsc_id .sp").attr("class");
+		if(wdsc="sp"){
+			$("#wdsc_id .gwc_2").remove();
+			$(".jieshuan").hide();
+		}
+		
+		
+		$(".wdsc_2_1 .sp .sp_m").each(function(i){
+			
+			if($(this).html()==name){
+				var gs=$(this).next().children(".sp_r_1").children("span:nth-child(2)").html();
+				gs=parseInt(gs)+1;
+				$(this).next().children(".sp_r_1").children("span:nth-child(2)").html(gs);
+				pd=1;
+				alert("加入购物车成功");
+			}
+		})
+		if(pd==0){
+			var html="<div class='sp'>"+
+						"<div class='sp_l'>"+
+							"<img src='"+img+"' width='50' height='50' alt=''>"+
+						"</div>"+
+						"<div class='sp_m'>"+name+"</div>"+
+						"<div class='sp_r'>"+
+							"<div class='sp_r_1'>￥<span>"+jg+"</span>X<span>1</div>"+
+							"<div class='sp_r_2'><a href='javascript:;'>删除</a></div>"+
+						"</div>"+
+					"</div>";
+			alert("加入购物车成功");
+			$(".wdsc_2_1").append(html);	
+		}
+	})
+	
+	$(document).on("click",".sp_r_2 a",function(){
+		$(this).parent().parent().parent().remove();
+		var wdsc= $("#wdsc_id .sp").attr("class");
+		if(wdsc==undefined){
+			$("#wdsc_id").html("<div class='gwc_2'>你的购物车没有商品</div>");
+		}
+	})
+	
+	$(document).on("mouseover",".sp",function(){
+		$(this).css("background-color","#E7E7E7");
+	})
+	
+	$(document).on("mouseout",".sp",function(){
+		$(this).css("background-color","#FFFFFF");
+	})
+
 	
 	if(sessionStorage.getItem("username")!=null){
 		var zhi=sessionStorage.getItem("username");
 		var html="<a href='index.html'>美逊首页</a>&nbsp;"+
 				"<a href='index.html'>您好，欢迎来到美逊</a>&nbsp;"+
 				"<a href='gerenxingxi.html'>"+zhi+"</a>&nbsp;"+
-				"<a id='tuichu' href='javascript:;'>退出</a>";
+				"<a id='tuichu' href='index.html'>退出</a>";
 		$(".hed_l_x").html(html);
 	}
 	
 	$(".gwc").click(function(){
+		if(sessionStorage.getItem("username")==null){
+			alert("请登入");
+		}else{		
+			window.location.href="gouwuche.html";
+		}
+	})
+	
+	$(".wdsc_3_img a").click(function(){
 		if(sessionStorage.getItem("username")==null){
 			alert("请登入");
 		}else{		

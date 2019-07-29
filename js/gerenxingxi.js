@@ -1,6 +1,11 @@
 $(function(){
 	$(".div_body_text_1").html(sessionStorage.getItem("username"));
 	
+	$(".jygl").click(function(){
+		var ss=$(this).parent().parent().next(".div_2_body_1");
+		ss.slideToggle();
+	})
+	
 	
 	if(sessionStorage.getItem("username")!=null){
 		var zhi=sessionStorage.getItem("username");
